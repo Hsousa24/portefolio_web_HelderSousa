@@ -1,0 +1,344 @@
+*{
+   margin: 05px;
+   padding: px;
+   box-sizing: border-box;
+   background-color: #ffffe7;
+   font-family: 'Inter', sans-serif;
+
+}
+
+.container { 
+    display: flex;
+    flex: 0;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    gap: 20px;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 1px solid black;
+    margin-left: 850px; 
+    margin-top: -40px;
+    padding: 1px;
+    font-size: small;
+    text-decoration: none;
+
+}
+
+.container a {
+    color: #0e0e0e;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #2c2c2c;
+    cursor: pointer;
+    background-color: #f7b866;
+    transition: background-color 0.3s ease-out 
+}
+
+.current-page { 
+    color: #d3d3d3;
+    background-color: #2c2c2c;
+}
+
+h1 {
+    font-size: 20px;
+} 
+
+.nome:hover {
+    color: #80807f;
+}
+
+h2 { 
+    font-size: 12px;
+
+}
+
+.projects {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.design-gráfico {
+    font-size: 20px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 13px;
+    flex-direction: column;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 1px 2px 2px 1px;
+    flex-wrap: wrap;
+}
+
+
+.tui-portugal { 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 22px auto;
+    
+}
+
+.fotografias { 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.graphic-design { 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.galeria1 {
+    margin: 8px;
+    border: 1px double black;
+    float: left;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;    
+    margin-right: 12px;
+   
+    
+}
+
+div.galeria2 {
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+       
+}
+
+div.galeria3 {
+    margin: 8px;
+    float: right;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+
+}
+
+div.galeria4 {
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+
+}
+
+div.galeria5 { 
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+
+}
+
+div.galeria6 { 
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+
+}
+
+div.galeria7 { 
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+
+}
+
+div.galeria8 { 
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+
+}
+
+div.galeria10 {
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+div.galeria11{
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+div.galeria12{
+    margin: 8px;
+    float: center;
+    border: 1px double black;
+    width: auto;
+    margin-top: 45px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.videos {
+    float: center;
+    border: double 5px black;
+    width: 150px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-right: 35px;
+    text-align: center;
+    margin-top: 5px auto;
+    padding: 15px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.videos a { 
+    text-decoration: none;
+    color: #0e0e0e;
+    background-color: transparent;
+        
+}
+
+.videos:hover {
+    background-color: #fcd58e;
+    color: #575757; 
+    border: 5px black  wheat;
+    transition: background-color 0.8s ease;
+
+}
+
+.endnote { 
+    text-align: center;     
+    margin-left: 25px;
+    margin-top:10px ;
+}
+
+
+@media (max-width: 780px) { 
+    .container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 10px; 
+        padding: 10px 0; 
+        border-top: 1px solid black; 
+        border-bottom: 1px solid black; 
+    }
+
+    .container li {
+        margin: 1px 0; 
+        padding: 2px 0;
+    } 
+
+    .current-page { 
+        color: #d3d3d3;
+        background-color: #2c2c2c;
+    }
+
+    .container li:hover{
+        background-color: #f7b866;
+        transition: background-color 0.3s ease-out; 
+        cursor: pointer;
+      
+    }
+
+    .tui-portugal,
+    .fotografias,
+    .graphic-design {
+        width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px; 
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .galeria1,
+    .galeria2,
+    .galeria3,
+    .galeria4,
+    .galeria5,
+    .galeria6,
+    .galeria7,
+    .galeria10,
+    .galeria11,
+    .galeria12 {
+        width: 90%; 
+        float: none; 
+        margin: 10px auto; 
+    }
+
+    .galeria1 img,
+    .galeria2 img,
+    .galeria3 img,
+    .galeria4 img,
+    .galeria5 img,
+    .galeria6 img,
+    .galeria7 img,
+    .galeria10 img,
+    .galeria11 img,
+    .galeria12 img {
+        width: 80%; 
+        height: auto;
+    }
+
+    .descr {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .videos {
+        float: center; 
+        margin: 20px auto; 
+        display: block; 
+        text-align: center;
+    }
+
+    .profile-pic { 
+        width: 80%;
+    }
+}

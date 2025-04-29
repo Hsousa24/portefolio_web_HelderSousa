@@ -1,0 +1,137 @@
+*{ 
+    margin: 05px;
+    padding: px;
+    box-sizing: border-box;
+    background-color: #ffffe7;
+    font-family: 'Inter', sans-serif;
+ }
+
+ 
+.container {
+    display: flex;
+    flex: 0;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    gap: 20px;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 1px solid black;
+    margin-left: 850px; 
+    margin-top: -40px;
+    padding: 1px;
+    font-size: small;
+}
+
+.container a {
+    color: #0e0e0e;
+    text-decoration: none;
+}
+
+.contatos-titulo { 
+    margin: 5px;
+    padding: 5px; 
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.nome:hover {
+    color: #80807f;
+}
+
+
+
+h1 {
+    font-size: 20px;
+} 
+
+h2 {
+    font-size: 12px;
+}
+
+.contatos {
+    display: flex;
+     
+} 
+
+.contatos-titulo {
+    font-size: 35px;
+   margin-top: 200px;
+}
+
+
+.flex-container { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    border: #0e0e0e 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+    width: 450px;
+}
+
+.email {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.telemovel {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.msg {
+    margin-top: 25px;
+    font-size: 21px;
+}
+ 
+
+li a:hover {
+    color: #2c2c2c;
+    cursor: pointer;
+    background-color: #f7b866;
+    transition: background-color 0.3s ease-out
+}
+
+.current-page { 
+    color: #d3d3d3;
+    background-color: #2c2c2c;
+}
+
+.send {
+    border-radius: 4px;
+    background-color: rgb(248, 226, 193);
+    box-shadow: 1px 2px 2px 1px;
+}
+
+.send:hover {
+    background-color: rgba(88, 87, 88, 0);
+    color: rgb(82, 84, 85);
+    transition: background-color 0.8s ease-out;
+}
+
+
+@media (max-width: 780px) { 
+    .container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 10px; 
+        padding: 10px 0; 
+        border-top: 1px solid black; 
+        border-bottom: 1px solid black; 
+    }
+
+    .container li {
+        margin: 1px 0; 
+        padding: 2px 0;
+    }
+
+    .container li:hover{
+        background-color: #f7b866;
+        transition: background-color 0.3s ease-out; 
+        cursor: pointer;
+      
+    }
+}
